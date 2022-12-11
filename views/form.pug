@@ -1,0 +1,10 @@
+form(method="POST" action="/new")
+  h1 Add a New Message
+
+  label(for="user") Name:
+  input#user(type="text" name="user" placeholder="Enter your name")
+
+  label(for="text") Message:
+  input#text(type="text" name="text" placeholder="Enter your message")
+
+  input(type="submit" value="Submit")
